@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug .Net Framework Project",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/HelloDotNetFramework/bin/Debug/net481/HelloDotNetFramework.exe",
+            "args": [],
+            "console": "internalConsole",
+        }
+    ]
+}
