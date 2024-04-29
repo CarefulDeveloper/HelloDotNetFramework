@@ -1,5 +1,13 @@
 Just a template project for vs code to create a .net framework project.
 
+# Set up
+
+- vs code + extensions(c# dev kit)
+- .net framework 4.8.1
+- .net 8.0+
+
+# Commands
+
 ```bash
 cd HelloDotNetFramework
 # search package
