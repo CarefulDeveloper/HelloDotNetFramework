@@ -16,7 +16,7 @@ dotnet.exe package search MySql
 dotnet.exe add package MySql.Data
 # build
 dotnet.exe build
-dotnet.exe build -r Release
+dotnet.exe build -c Release
 # run
 dotnet.exe run
 ```
