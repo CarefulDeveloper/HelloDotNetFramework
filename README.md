@@ -20,3 +20,14 @@ dotnet.exe build -c Release
 # run
 dotnet.exe run
 ```
+
+# Interop with ComObject
+
+1. generate interop dll file by `tlbimp.exe`, a .net framework sdk tool.
+```bash
+cd HelloDotNetFramework/Lib
+# example path for TlbImp.exe
+& "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\TlbImp.exe" "C:\Windows\System32\wshom.ocx" /out:Interop.IWshRuntimeLibrary.dll
+```
+
+2. add interop dll to dependencies.
